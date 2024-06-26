@@ -41,31 +41,57 @@ export default {
   },
   data() {
     return {
-      list: [
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-2.jpeg'), alt: 'Photo 1' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-3.jpeg'), alt: 'Photo 2' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-4.jpeg'), alt: 'Photo 3' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-5.jpeg'), alt: 'Photo 4' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-6.jpeg'), alt: 'Photo 5' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-7.jpeg'), alt: 'Photo 6' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-8.jpeg'), alt: 'Photo 7' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-9.jpeg'), alt: 'Photo 8' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-10.jpeg'), alt: 'Photo 9' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-11.jpeg'), alt: 'Photo 10' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-12.jpeg'), alt: 'Photo 11' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-13.jpeg'), alt: 'Photo 12' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-14.jpeg'), alt: 'Photo 13' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-15.jpeg'), alt: 'Photo 14' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-16.jpeg'), alt: 'Photo 15' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-17.jpeg'), alt: 'Photo 16' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-18.jpeg'), alt: 'Photo 17' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-19.jpeg'), alt: 'Photo 18' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-20.jpeg'), alt: 'Photo 19' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-21.jpeg'), alt: 'Photo 20' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-22.jpeg'), alt: 'Photo 21' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-23.jpeg'), alt: 'Photo 22' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-24.jpeg'), alt: 'Photo 23' },
-        { src: require('@/assets/合照精修24/计算机本研 崔跃钟摄-25.jpeg'), alt: 'Photo 24' },
+      compressed_list: [
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-2中.jpeg'), alt: 'Photo 1' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-3中.jpeg'), alt: 'Photo 2' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-4中.jpeg'), alt: 'Photo 3' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-5中.jpeg'), alt: 'Photo 4' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-6中.jpeg'), alt: 'Photo 5' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-7中.jpeg'), alt: 'Photo 6' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-8中.jpeg'), alt: 'Photo 7' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-9中.jpeg'), alt: 'Photo 8' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-10中.jpeg'), alt: 'Photo 9' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-11中.jpeg'), alt: 'Photo 10' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-12中.jpeg'), alt: 'Photo 11' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-13中.jpeg'), alt: 'Photo 12' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-14中.jpeg'), alt: 'Photo 13' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-15中.jpeg'), alt: 'Photo 14' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-16中.jpeg'), alt: 'Photo 15' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-17中.jpeg'), alt: 'Photo 16' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-18中.jpeg'), alt: 'Photo 17' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-19中.jpeg'), alt: 'Photo 18' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-20中.jpeg'), alt: 'Photo 19' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-21中.jpeg'), alt: 'Photo 20' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-22中.jpeg'), alt: 'Photo 21' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-23中.jpeg'), alt: 'Photo 22' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-24中.jpeg'), alt: 'Photo 23' },
+        { src: require('@/assets/压缩图/合照精修24/计算机本研 崔跃钟摄-25中.jpeg'), alt: 'Photo 24' },
+      ],
+      original_list: [
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-2.jpg'), alt: 'Photo 1' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-3.jpg'), alt: 'Photo 2' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-4.jpg'), alt: 'Photo 3' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-5.jpg'), alt: 'Photo 4' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-6.jpg'), alt: 'Photo 5' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-7.jpg'), alt: 'Photo 6' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-8.jpg'), alt: 'Photo 7' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-9.jpg'), alt: 'Photo 8' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-10.jpg'), alt: 'Photo 9' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-11.jpg'), alt: 'Photo 10' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-12.jpg'), alt: 'Photo 11' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-13.jpg'), alt: 'Photo 12' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-14.jpg'), alt: 'Photo 13' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-15.jpg'), alt: 'Photo 14' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-16.jpg'), alt: 'Photo 15' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-17.jpg'), alt: 'Photo 16' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-18.jpg'), alt: 'Photo 17' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-19.jpg'), alt: 'Photo 18' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-20.jpg'), alt: 'Photo 19' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-21.jpg'), alt: 'Photo 20' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-22.jpg'), alt: 'Photo 21' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-23.jpg'), alt: 'Photo 22' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-24.jpg'), alt: 'Photo 23' },
+        { src: require('@/assets/原图/合照精修24/计算机本研 崔跃钟摄-25.jpg'), alt: 'Photo 24' },
       ],
       lightboxVisible: false,
       currentIndex: 0,
@@ -76,36 +102,38 @@ export default {
   },
   computed: {
     paginatedList() {
-      const start = (this.currentPage - 1) * this.itemsPerPage;
-      const end = start + this.itemsPerPage;
-      return this.list.slice(start, end);
-    },
-    totalPages() {
-      return Math.ceil(this.list.length / this.itemsPerPage);
-    },
-    media() {
-      return this.list.map(item => ({
-        thumb: item.src,
-        src: item.src,
-        caption: item.alt
-      }));
-    }
+    const start = (this.currentPage - 1) * this.itemsPerPage;
+    const end = start + this.itemsPerPage;
+    this.list = this.compressed_list 
+    return this.list.slice(start, end);
+  },
+  totalPages() {
+    return Math.ceil(this.list.length / this.itemsPerPage);
+  },
+  media() {
+    // 使用original_list生成媒体对象
+    return this.original_list.map(item => ({
+      thumb: item.src,
+      src: item.src,
+      caption: item.alt
+    }));
+  }
   },
   methods: {
     openLightbox(index) {
-      this.currentIndex = index;
-      this.$refs.lightbox.showImage(index);
-    },
-    prevPage() {
-      if (this.currentPage > 1) {
-        this.currentPage--;
-      }
-    },
-    nextPage() {
-      if (this.currentPage < this.totalPages) {
-        this.currentPage++;
-      }
+    this.currentIndex = index; // 这里保持不变，因为是直接从UI触发
+    this.$refs.lightbox.showImage(this.currentIndex); // 直接用currentIndex打开lightbox
+  },
+  prevPage() {
+    if (this.currentPage > 1) {
+      this.currentPage--;
     }
+  },
+  nextPage() {
+    if (this.currentPage < this.totalPages) {
+      this.currentPage++;
+    }
+  }
   },
   mounted() {
     document.title = "电子相册";
