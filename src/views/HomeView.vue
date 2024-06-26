@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <head>
-      <link href='http://cdn.repository.webfont.com/webfonts/nomal/154803/45871/667b5f29a75bea1ff82c53f2.css' rel='stylesheet' type='text/css' />
+      <link href='https://cdn.repository.webfont.com/webfonts/nomal/154803/45871/667b5f29a75bea1ff82c53f2.css' rel='stylesheet' type='text/css' />
     </head>
     
-    <h1 class="css3ef715032f25cb3">本研 AI2001 毕业季电子相册</h1>
+    <h1 class="css3ef715032f25cb3">本研 AI2001 毕业季电子相册其他字</h1>
     <Waterfall :list="paginatedList" :width="300" :gutter="10">
       <template #item="{ item, url, index }">
         <div class="card" @click="openLightbox((currentPage - 1) * itemsPerPage + index)">
