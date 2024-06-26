@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkgallery_vue2"]=self["webpackChunkgallery_vue2"]||[]).push([[594],{9220:function(u,e,n){n.r(e),n.d(e,{default:function(){return i}});var t=function(){var u=this;u._self._c;return u._m(0)},l=[function(){var u=this,e=u._self._c;return e("div",{staticClass:"about"},[e("h1",[u._v("This is an about page")])])}],s=n(1656),a={},r=(0,s.A)(a,t,l,!1,null,null,null),i=r.exports}}]);
+//# sourceMappingURL=about.fd7de86d.js.map
